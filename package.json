@@ -1,0 +1,19 @@
+{
+  "name": "auto_express",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/A1996KASH/Automate-Express.git"
+  },
+  "author": "Akash Sengar <akashsengar96@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/A1996KASH/Automate-Express/issues"
+  },
+  "homepage": "https://github.com/A1996KASH/Automate-Express#readme"
+}
