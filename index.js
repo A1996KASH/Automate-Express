@@ -19,6 +19,7 @@ const run = async () => {
   (error, stdout, stderr) => {
       console.log(`${stdout}`);
       console.log(`${stderr}`);
+      console.log("Set up Finished cd into your Project and run node server.js");
       if (error !== null) {
           console.log(`exec error: ${error}`);
       }
