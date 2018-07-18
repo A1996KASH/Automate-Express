@@ -11,7 +11,7 @@ console.log(
 );
 
 const run = async () => {
-  const projectName = await inquirer.askGithubCredentials();
+  const projectName = await inquirer.AskProjectName();
   console.log(projectName.ProjectName);
 };
 

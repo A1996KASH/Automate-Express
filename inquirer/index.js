@@ -1,7 +1,7 @@
 const inquirer = require("inquirer");
 
 module.exports = {
-  askGithubCredentials: () => {
+    AskProjectName: () => {
     const questions = [
       {
         name: "ProjectName",
