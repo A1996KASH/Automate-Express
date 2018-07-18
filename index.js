@@ -14,7 +14,7 @@ console.log(
 
 const run = async () => {
   const projectName = await inquirer.AskProjectName();
-  console.log("Setting Up the Project Please Wait...")
+  console.log(chalk.red("Setting Up the Project Please Wait..."));
  exec('sh shell/createStructure.sh ' +  projectName.ProjectName,
   (error, stdout, stderr) => {
       console.log(`${stdout}`);
